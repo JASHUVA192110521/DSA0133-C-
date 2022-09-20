@@ -1,0 +1,25 @@
+#include<iostream>
+#include<conio.h>
+using namespace std;//AMPOLU RUBEN JASHUVE
+int main()
+{
+	int a,i,j,l,m,c;
+	cout<<"enter the number1=";
+	cin>>l;
+	cout<<"enter the number2=";
+	cin>>m;
+	
+	for(i=l+1;i<m;i++){
+		for(j=1;j<=i;j++){
+			if(i%j==0){
+				c++;
+			}
+			
+		}
+		if(c>2)
+		    cout<<i;
+		c=0;
+	
+	}	
+	return 0;   
+}
