@@ -1,0 +1,18 @@
+#include <iostream>
+using namespace std;
+int main() 
+{
+  cout << "\n\n enetr the number a,b:\n";
+  int i,a,b,lcm,gcd;
+  cin>>a;
+  cin>>b;
+  for(i=1;i<1000;i++){
+  	if((a%i==0)&&(b%i==0)){
+  		gcd=i;
+	  	
+	  }
+  }
+  lcm=(a*b)/gcd;
+  cout<<"\nlcm of two number="<<lcm;
+  cout<<"\ngcdof two number="<<gcd; 
+}
