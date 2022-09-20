@@ -1,0 +1,23 @@
+#include<iostream>
+#include<conio.h>
+using namespace std;//AMPOLU RUBEN JASHUVA
+main()
+{
+	float a,b,c=0;
+	cout<<"enter the num{a}=";
+	cin>>a;
+	cout<<"enter the num{b}=";
+	cin>>b;
+	cout<<"enter the num{c}=";
+	cin>>c;
+	if(a>b && b>c){
+		cout<<a <<"greatest number";
+    }
+    
+	else if(b>c && b>a){
+		cout<<b << "greatest nuumeber";
+	}
+	else
+	    cout<<c <<"greatest number";
+	
+}
