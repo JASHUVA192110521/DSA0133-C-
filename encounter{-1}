@@ -1,0 +1,30 @@
+#include<iostream>
+#include<conio.h>
+using namespace std;//AMPOLU RUBEN JASHUVE
+int main()
+{
+	
+	int i=1,n,p ,c=0,cc=0;
+	float ps,pn;
+	while(i>0){
+
+		cin>>p;
+	    i=i+1;		
+		if(p==-1)
+		break;
+	    if(p>=0){
+	    	ps+=p;
+			c+=1; 
+		}
+		   
+	    if(p<0){
+	    	pn+=p;
+			cc+=1;                                                                                                  
+	    
+		}
+	}
+	cout<<"\nthe average of negative number="<<pn/cc;
+	cout<<"\nthe average of positive number="<<ps/c;
+
+
+}
