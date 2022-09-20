@@ -1,0 +1,17 @@
+#include<iostream>
+#include<conio.h>
+using namespace std;//AMPOLU RUBEN JASHUVA
+main()
+{
+	string text="";
+	cout<<"enter the string=";
+	cin>>text;
+	int len,i;
+	char w;
+	len=text.length();
+	for(i=len;i>=0;i--){
+		cout<<text[i];
+		
+	}
+	
+}
