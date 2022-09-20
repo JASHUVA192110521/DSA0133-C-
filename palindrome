@@ -1,0 +1,26 @@
+#include<iostream>
+#include<conio.h>
+using namespace std;//AMPOLU RUBEN JASHUVA
+main()
+{
+	string text="";
+	string demo="";
+	string a,b;
+	cout<<"enter the string=";
+	cin>>text;
+	int len,i;
+	char w;
+	len=text.length();
+	for(i=len-1;i>=0;i--){
+		cout<<text[i];
+		demo+=text[i];
+    }
+    a=text;
+    b=demo;
+    cout<<"\n"<<demo;
+	if(a==b)
+		cout<<"\npanildrome";
+	if(a!=b)
+	    cout<<"\not panildrome";
+    
+}
