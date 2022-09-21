@@ -1,0 +1,15 @@
+#include<iostream>
+using namespace std;
+int main()
+{
+	int q1,q2,q3;
+	cout<<"Enter the value of q1 : ";
+	cin>>q1;
+	cout<<"Enter the value of q2 : ";
+	cin>>q2;
+	q3=q1;
+	q1=q2;
+	q2=q3;
+	cout<<"Value of q1 after swapping is : "<<q1;
+	cout<<"Value of q2 after swapping is : "<<q2;
+}
