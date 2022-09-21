@@ -1,0 +1,35 @@
+#include<iostream>
+#include<conio.h>
+class Arithemetic 
+{
+	int a,b,r1;
+	float r2;
+	public:
+		cout<<"Enter the value of a : ";
+		cin>>a;
+		cout<<"Enter the value of b : ";
+		cin>>b;
+		int add()
+		{
+			r1=a+b;
+			cout<<"The sum is : "<<r1;
+		}
+		int sub()
+		{
+			r1=a-b;
+			cout<<"The difference is : "<<r1;
+		}
+		int mul()
+		{
+			r1=a*b;
+			cout<<"The product is : "<<r1;
+		}
+		int div()
+		{
+			r2=a/b;
+			cout<<"The division result is : "<<r2;
+		}
+};
+int main()
+{
+}
