@@ -1,0 +1,29 @@
+#include<iostream>
+#include<conio.h>
+using namespace std;
+class student
+{
+	string name;
+	public:
+		student(string s)
+		{
+			name=s;
+		}
+		student()
+		{
+			name="unknown";
+			
+		}
+		void p()
+		{
+			cout<<name<<endl;
+		}
+};
+int main()
+{
+	student s1("jhon");
+	student s2;
+	s1.p();
+	s2.p();
+	return 0;
+ }
