@@ -1,0 +1,19 @@
+#include<iostream>
+#include<conio.h>
+using namespace std;//AMPOLU RUBEN JASHUVA
+main()
+{
+	int a,i,s=0,t;
+	cout<<"enter the num=";
+	cin>>a;
+	for(i=1;i<a;i++){
+		t=a%10;
+		s+=t;
+		a=a/10;
+			
+		
+		
+	
+	}
+	cout<<"\n sum of n digit number="<<s;
+}
