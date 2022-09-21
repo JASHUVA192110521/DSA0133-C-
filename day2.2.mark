@@ -1,0 +1,42 @@
+#include<iostream>
+using namespace std;
+int main()
+{
+	int m1,m2,m3,m4,total;
+	float avg;
+	cout<<"Enter 1st subject marks : ";
+	cin>>m1;
+	cout<<"Enter 2nd subject marks : ";
+	cin>>m2;
+	cout<<"Enter 3rd subject marks : ";
+	cin>>m3;
+	cout<<"Enter 4th subject marks : ";
+	cin>>m4;
+	if(m1>=0 and m1<=100 and m2>=0 and m2<=100 and m3>=0 and m3<=100 and m4>=0 and m4<=100)
+	{
+		total=m1+m2+m3+m4;
+		avg=(total*100)/400;
+		if(avg>=75)
+		{
+			cout<<avg<<endl;
+			cout<<"DISTINCTION"<<endl;
+		}
+		else if(avg<75 and avg>=60)
+		{
+			cout<<avg<<endl;
+			cout<<"First Division"<<endl;
+		}
+		else if(avg<60 and avg>=50)
+		{
+			cout<<avg<<endl;
+			cout<<"Second Division"<<endl;
+		}
+		else if(avg<50 and avg>=40)
+		{
+			cout<<avg<<endl;
+			cout<<"Third Division"<<endl;
+		}
+		else
+		cout<<"Fail";
+	}
+}
