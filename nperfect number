@@ -1,0 +1,23 @@
+#include<iostream>
+#include<conio.h>
+using namespace std;//AMPOLU RUBEN JASHUVA
+main()
+{
+	int a,i=1,s=0,t,j;
+	cout<<"entre the number=";
+	cin>>a;
+	t=a;
+	while(i<a){
+		if(a%i==0)
+		s=s+i;	
+		i++;
+	}
+	if(s==t)
+	cout<<i<<"\nperfect number";
+	s=0;
+	else
+	cout<<i<<"\nNot perfect number\n";
+	    system("pause");
+	return 0;
+
+}
