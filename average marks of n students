@@ -1,0 +1,36 @@
+#include<iostream>
+#include<conio.h>
+using namespace std;//AMPOLU RUBEN JASHUVA
+main()
+{
+	int id,n,i;
+	string s;
+	int w1,w2,w3,avg;
+
+
+	cout<<"enter no of students=";
+	cin>>n;
+	for(i=1;i<=n;i++)
+	{
+		cout<<"student"<<i<<"=";
+		cin>>s;
+		cout<<"enter id=";
+	    cin>>id;
+	    cout<<"enter marks maths,physics,biology";
+	    cin>>w1;
+	    cin>>w2;
+	    cin>>w3;
+	    avg=(w1+w2+w3)/3;
+	    cout<<"the averge marks="<<avg<<"\n";
+	    if(avg>=90)cout<<"s grade";
+	    if(avg<90 && avg>80)cout<<"A-grade"<<"\n";
+	    
+	    if(avg<80 && avg>70)cout<<"B-grade"<<"\n";
+	    if(avg<70 && avg>60)cout<<"c-grade"<<"\n";
+	    
+	    if(avg<60 && avg>50)cout<<"D-grade"<<"\n";
+	    if(avg<50)
+	    cout<<"fail"<<"\n";
+	}
+	
+}
