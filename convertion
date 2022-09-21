@@ -1,0 +1,35 @@
+#include<iostream>
+#include<cmath>
+#include<conio.h>
+using namespace std;
+main()
+{
+	int a,i,t,s=0,r;
+	
+	cout<<"enter=";
+	cin>>a;
+	s=a;
+	cout<<"Equvalent the decimal to binary(base2)=";
+	
+	while(a!=0){
+		r=a%2;
+		cout<<r;
+		a=a/2;
+		i++;
+		
+	}
+
+	cout<<"\nEquvalent the decimal to octal(base8)=";
+	while(s!=0){
+		r=s%8;
+		s=s/8;
+	    cout<<s;
+		cout<<r;
+		if(s=0)
+		break;
+	
+		
+		i++;
+		
+	}
+}
